@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import useFadeIn from "../hooks/useFadeIn";
-import { contactLinks, contactNote } from "../data/portfolio";
+import { contactLinks } from "../data/portfolio";
 
 const Contact = () => {
   const ref = useRef();
@@ -9,18 +9,32 @@ const Contact = () => {
   return (
     <section id="contact" ref={ref} className={`content-section contact-section ${fadeClass}`}>
       <p className="section-kicker">Contact</p>
-      <h2>Ready for interviews, freelance work, and frontend opportunities.</h2>
+      <h2>Want to reach out?</h2>
       <p className="section-intro">
-        If you&apos;re hiring for a frontend role, I&apos;d love to share more
-        about my process, projects, and how I can contribute to your team.
+        I&apos;m open to frontend roles, freelance work, and conversations about
+        projects I&apos;ve built.
       </p>
       <div className="contact-actions">
-        <a className="btn-primary" href="mailto:ireolami02@gmail.com">
+        <a className="btn-primary" href={contactLinks[0].href}>
           Email Me
         </a>
         <a className="btn-secondary" href="#home">
           Back to Top
         </a>
+      </div>
+      <div className="contact-grid">
+        {contactLinks.map((item) => (
+          <a
+            key={item.label}
+            className="contact-card"
+            href={item.href}
+            target={item.href.startsWith("http") ? "_blank" : undefined}
+            rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
+          >
+            <span>{item.label}</span>
+            <strong>{item.value}</strong>
+          </a>
+        ))}
       </div>
     </section>
   );

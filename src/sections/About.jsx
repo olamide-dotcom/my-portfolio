@@ -14,7 +14,7 @@ const About = () => {
     >
       <div className="about-copy">
         <p className="section-kicker">About</p>
-        <h2>A frontend developer focused on clarity, usability, and polish.</h2>
+        <h2>Frontend development is where I feel most comfortable.</h2>
         <p className="section-intro">{profile.intro}</p>
         <p className="about-location">
           Based in {profile.location}. {profile.availability}

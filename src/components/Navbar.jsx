@@ -29,7 +29,7 @@ const Navbar = ({ theme, onToggleTheme }) => {
           <span className="toggle-thumb" />
         </span>
         <span className="toggle-label">
-          {theme === "light" ? "Dark Mode" : "Light Mode"}
+          {theme === "light" ? "Dark mode" : "Light mode"}
         </span>
       </button>
     </nav>

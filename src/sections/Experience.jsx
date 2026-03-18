@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import useFadeIn from "../hooks/useFadeIn";
-import { experienceItems, recruiterPoints } from "../data/portfolio";
+import { experienceItems } from "../data/portfolio";
 
 const Experience = () => {
   const ref = useRef();
@@ -8,12 +8,11 @@ const Experience = () => {
 
   return (
     <section id="experience" ref={ref} className={`content-section ${fadeClass}`}>
-      <p className="section-kicker">Experience</p>
-      <h2>Project-based experience</h2>
+      <p className="section-kicker">What I&apos;ve been working on</p>
+      <h2>Most of my experience so far comes from personal projects.</h2>
       <p className="section-intro">
-        While building toward a formal frontend role, I&apos;ve been treating my
-        portfolio work like real product delivery: clear scope, clean UI,
-        reusable code, and deployment-ready results.
+        I have been using personal projects to get more comfortable with React,
+        APIs, deployment, and writing cleaner frontend code.
       </p>
       <div className="experience-grid">
         {experienceItems.map((item) => (
@@ -29,14 +28,6 @@ const Experience = () => {
             </div>
           </article>
         ))}
-      </div>
-      <div className="recruiter-panel">
-        <p className="panel-title">Recruiter Snapshot</p>
-        <div className="recruiter-points">
-          {recruiterPoints.map((point) => (
-            <p key={point}>{point}</p>
-          ))}
-        </div>
       </div>
     </section>
   );

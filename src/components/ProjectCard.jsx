@@ -8,7 +8,6 @@ const ProjectCard = ({ title, description, outcome, tech, live, github }) => {
   return (
     <article ref={ref} className={`project-card ${fadeClass}`}>
       <div className="project-card-header">
-        <p className="project-label">Featured Project</p>
         <h3>{title}</h3>
       </div>
       <p className="project-description">{description}</p>

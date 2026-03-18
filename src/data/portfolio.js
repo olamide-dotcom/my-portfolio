@@ -2,38 +2,36 @@ export const profile = {
   name: "Tempo",
   role: "Frontend Developer",
   location: "Lagos, Nigeria",
-  availability: "Open to frontend and product engineering roles in 2026",
+  availability: "Open to junior frontend roles and freelance work.",
   summary:
-    "I build polished, accessible web interfaces, strong UX thinking, and  focus on responsive performance.",
+    "I build responsive interfaces with React and JavaScript, with attention to clean structure, usability, and small details.",
   intro:
-    "I help teams turn product ideas into fast, reliable, and user-friendly web experiences. My work blends clean frontend architecture, thoughtful interaction design, and practical delivery.",
+    "I am a frontend developer based in Lagos. Most of my recent work has been personal projects where I practice building responsive layouts, working with APIs, and shipping to Vercel.",
   resumeUrl: "#contact",
-  resumeLabel: "Request Resume",
-  recruiterPitch:
-    "Looking for a junior frontend developer who can ship clean React interfaces, communicate clearly, and keep improving fast.",
+  resumeLabel: "Get in touch",
 };
 
 export const highlights = [
-  { label: "Projects shipped", value: "3+" },
-  { label: "Core focus", value: "React UI" },
-  { label: "Strength", value: "Responsive UX" },
+  { label: "Projects", value: "3" },
+  { label: "Main stack", value: "React" },
+  { label: "Based in", value: "Lagos" },
 ];
 
 export const projects = [
   {
     title: "Food Ordering App",
     description:
-      "A smooth ordering flow with menu browsing, cart interactions, and responsive layout patterns for everyday mobile use.",
-    outcome: "Demonstrates interface structure, component reuse.",
-    tech: ["React", "JavaScript"],
+      "A restaurant ordering interface with menu browsing, cart updates, and a responsive layout that works well on mobile.",
+    outcome: "Built with reusable components and a cleaner ordering flow.",
+    tech: ["React", "JavaScript", "CSS"],
     live: "https://food-ordering-app-three-beta.vercel.app",
     github: "https://github.com/olamide-dotcom/food-ordering-app",
   },
   {
     title: "Movie App",
     description:
-      "A movie discovery experience for browsing popular titles, exploring trends, and presenting API data in a clean visual layout.",
-    outcome: "Shows API consumption, routing-friendly UI patterns, and state-driven rendering.",
+      "A movie browsing app that fetches data from an API and displays trending content in a simple, easy-to-use layout.",
+    outcome: "Good practice for API calls, state updates, and rendering lists of data.",
     tech: ["React", "JavaScript", "Movie API"],
     live: "https://movie-app-gamma-jade.vercel.app/#popular",
     github: "https://github.com/olamide-dotcom/movie-app",
@@ -41,9 +39,9 @@ export const projects = [
   {
     title: "To-do App",
     description:
-      "A focused productivity app for tracking daily tasks with lightweight persistence and a straightforward interaction model.",
-    outcome: "Highlights state handling, usability, and local persistence with a simple product scope.",
-    tech: ["React", "Local Storage", "CSS"],
+      "A lightweight task app for adding, completing, and storing daily tasks in the browser.",
+    outcome: "Focused on simple UX and local storage handling.",
+    tech: ["React", "CSS", "Local Storage"],
     live: "https://to-do-app-ten-ebon-58.vercel.app",
     github: "https://github.com/olamide-dotcom/to-do-app",
   },
@@ -51,84 +49,64 @@ export const projects = [
 
 export const skillGroups = [
   {
-    title: "Frontend",
-    items: ["HTML5", "CSS3", "JavaScript", "React", "Responsive Design"],
+    title: "Core",
+    items: ["HTML", "CSS", "JavaScript", "React"],
   },
   {
-    title: "Workflow",
-    items: ["Git", "GitHub", "Vite", "Vercel", "Component Design"],
+    title: "Tools",
+    items: ["Git", "GitHub", "Vite", "Vercel"],
   },
   {
-    title: "Quality",
-    items: ["Accessibility", "Performance", "Clean UI", "Mobile-first Thinking"],
+    title: "Focus",
+    items: ["Responsive Design", "APIs", "Clean UI", "Accessibility"],
   },
 ];
 
 export const strengths = [
-  "Builds clean, responsive interfaces that feel polished across mobile and desktop.",
-  "Translates product ideas into practical UI systems with reusable React components.",
-  "Values clarity, maintainability, and user experience as much as visual appeal.",
+  "I enjoy building interfaces that work well on both mobile and desktop.",
+  "I like breaking pages into reusable React components.",
+  "I pay attention to layout, spacing, and the small details that improve usability.",
 ];
 
 export const experienceItems = [
   {
-    period: "2025 - 2026",
-    title: "Independent Frontend Projects",
-    subtitle: "React, APIs, and responsive product interfaces",
+    period: "2025 - now",
+    title: "Personal frontend projects",
+    subtitle: "React, APIs, and deployment",
     description:
-      "Built and deployed web apps focused on user flows, clean layouts, and practical interaction design.",
+      "I have been building small projects to improve my frontend skills and get more comfortable shipping work from idea to deployment.",
     points: [
-      "worked with projects that used APIs, manage state, and adapt smoothly across screen sizes.",
-      "Used modern frontend tooling with Vite, GitHub, and Vercel for quick iteration and deployment.",
+      "Built apps that use APIs, browser storage, and reusable components.",
+      "Deployed projects with Vercel and kept the code in GitHub.",
     ],
   },
   {
-    period: "Current Focus",
-    title: "Hiring-Ready Frontend Workflow",
-    subtitle: "Quality, consistency, and maintainable UI work",
+    period: "Current focus",
+    title: "Improving day-to-day frontend skills",
+    subtitle: "Cleaner code and better UI decisions",
     description:
-      "Approaching projects with stronger attention to accessibility, code organization, and the kind of polish employers expect in production environments.",
+      "Right now I am focused on writing clearer React code and building interfaces that feel more polished and consistent.",
     points: [
-      "Breaks interfaces into reusable components instead of relying on one-off page code.",
-      "Prioritizes readable structure, responsive behavior, and user-friendly interaction details.",
+      "Practicing better component structure and state handling.",
+      "Improving layout, responsiveness, and basic accessibility.",
     ],
   },
-  {
-    period: "2026 Goal",
-    title: "Junior Frontend Engineer Role",
-    subtitle: "Open to full-time, internship, and freelance opportunities",
-    description:
-      "Actively preparing for team environments where I can contribute to real products, learn from stronger engineers, and grow into broader frontend ownership.",
-    points: [
-      "Interested in product teams that value design quality, collaboration, and shipping useful work.",
-      "Ready to discuss project decisions, implementation tradeoffs, and how I keep improving.",
-    ],
-  },
-];
-
-export const recruiterPoints = [
-  "Comfortable building in React with clean component structure and responsive layouts.",
-  "Can present projects clearly, explain implementation choices, and take feedback well.",
-  "Focused on becoming the kind of teammate who delivers dependable UI work and keeps growing.",
 ];
 
 export const contactLinks = [
   {
     label: "Email",
-    value: "hello@yourname.dev",
+    value: "ireolami02@gmail.com",
     href: "mailto:ireolami02@gmail.com",
   },
   {
     label: "GitHub",
-    value: "github.com/yourusername",
+    value: "github.com/olamide-dotcom",
     href: "https://github.com/olamide-dotcom",
   },
   {
     label: "LinkedIn",
-    value: "linkedin.com/in/yourprofile",
-    href: "https://www.linkedin.com/in/ajayi-olamide-66126a200?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+    value: "linkedin.com/in/ajayi-olamide-66126a200",
+    href: "https://www.linkedin.com/in/ajayi-olamide-66126a200",
   },
 ];
-
-export const contactNote =
-  "";

@@ -9,11 +9,11 @@ const Projects = () => {
 
   return (
     <section id="projects" ref={ref} className={`content-section ${fadeClass}`}>
-      <p className="section-kicker">Selected Work</p>
-      <h2>Projects built to show product thinking, not just code.</h2>
+      <p className="section-kicker">Projects</p>
+      <h2>A few projects I&apos;ve built while learning and improving.</h2>
       <p className="section-intro">
-        These projects highlight how I approach interface structure, API-driven
-        experiences, and responsive frontend implementation.
+        These are the projects I usually use to show how I work with React,
+        APIs, state, and responsive layouts.
       </p>
       <div className="projects-grid">
         {projects.map((project) => (

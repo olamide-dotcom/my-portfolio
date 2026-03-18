@@ -8,8 +8,8 @@ const Skills = () => {
 
   return (
     <section id="skills" ref={ref} className={`content-section alt-section ${fadeClass}`}>
-      <p className="section-kicker">Capabilities</p>
-      <h2>Skills that support modern frontend delivery.</h2>
+      <p className="section-kicker">Skills</p>
+      <h2>Tools and skills I use most often.</h2>
       <div className="skills-grid">
         {skillGroups.map((group) => (
           <article key={group.title} className="skill-group">

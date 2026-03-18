@@ -10,10 +10,10 @@ export default function useFadeIn(ref) {
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          observer.unobserve(ref.current); // trigger only once
+          observer.unobserve(ref.current);
         }
       },
-      { threshold: 0.2 } // 20% visible
+      { threshold: 0.2 }
     );
 
     observer.observe(ref.current);
